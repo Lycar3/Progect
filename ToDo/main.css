@@ -1,0 +1,89 @@
+body{
+    margin:0;
+}
+
+.app{
+    width: 650px;
+    height: 800px;
+    background-color: #e6e6e6;
+    border-radius: 15px;
+    padding: 45px 60px;
+    display: grid;
+    grid-template-rows:66px 711px ;
+    gap: 22px;
+
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app_controls{
+    display: grid;
+    grid-template-columns: auto 160px;
+
+}
+.app_controls-input{
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+
+}
+.app_controls-input:focus-visible {
+    outline: none;
+}
+.app_controls-button {
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #fbcc28;
+    font-size: 18px;
+
+}
+.app_list {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+.app_list-item {
+    background-color: #ffebeb;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    gap: 10px;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.app_list-btn{
+    border: none;
+    background: none;
+    border-radius: 5px;
+
+}
+.app_list-btn:hover{
+    background-color: red;
+}
+button:hover{
+    cursor:pointer;
+}
+.app_list-checkbox{
+    width: 20px;
+    height: 20px;
+    
+}
+.app_list-item_text{
+    margin: 0;
+    flex-grow: 1;
+    font-size: 18px;
+}
+.app_list-item_done{
+    background-color: #ebffed;
+    text-decoration: line-through;
+}
