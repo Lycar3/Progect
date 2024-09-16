@@ -147,30 +147,29 @@ hr {
 
 .feedback-div {
     display: flex;
-    justify-content: space-between;
-}
-
-.feedback-input {
-    width: 363px;
-    border-radius: 5px;
-    border: 1px solid #dadada;
-    padding: 9px 14px;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.feedback-div {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between ;
     margin-top: 20px;
     display: flex;
 }
 
+.feedback-input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    padding: 9px 14px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 .feedback-textarea {
-    width: 800px;
+    width: 100%;
     border-radius: 5px;
     border: 1px solid #dadada;
     padding: 10px 14px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .button-div {
@@ -178,6 +177,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .button{
